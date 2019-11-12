@@ -1,0 +1,11 @@
+div.title{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+div.title h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(0, 0, 0, .6);
+    font-size: 20px;
+}

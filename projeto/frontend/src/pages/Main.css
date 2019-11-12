@@ -1,0 +1,224 @@
+body{
+    font: arial;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 2px 0 3px rgba(0, 0, 0, .6);
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    z-index: 2;
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center ;
+    padding: 20px;
+    height: 100%;
+}
+
+nav ul li:nth-child(1) img{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul li:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav ul li:nth-child(1) div:nth-child(1){
+    border-right: 1px solid black;
+    margin: 0 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li:nth-child(1) div i{
+    font-size: 30px;
+}
+
+nav ul li input{
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .5);
+    width: 250px;
+}
+
+nav ul li i{
+    font-size: 23px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+section{
+    width: 75%;
+    margin: 90px auto;
+
+}
+
+section div.history{
+    height: 130px;
+    width: 100%;
+    background-color: #fff;
+    border: .5px solid rgba(0, 0, 0, .1);
+    padding: 3px;
+}
+
+section div.history div{
+    width: 100%;
+    height: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+section div.history div p:nth-child(1){
+    font-weight: bold;
+    color: rgba(0, 0, 0, .3)
+}
+
+section div.history div p:nth-child(2){
+    cursor: pointer;
+    font-weight: bold;
+}
+
+section div.history ul{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+section div.history ul li{
+    margin: 3px 20px;
+    cursor: pointer;
+}
+
+section div.history ul li img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 4px rgb(108, 108, 224);
+}
+
+section div.posts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section div.posts div.card{
+    width: 65%;
+    background-color: #fff;
+    margin: 10px auto;
+    height: 800px;
+}
+
+section div.posts div.card div.info-perfil{
+    width: 100%;
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section div.posts div.card div.info-perfil div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section div.posts div.card div.info-perfil div img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px rgb(250, 173, 29);
+}
+
+section div.posts div.card div.info-perfil div h4{
+    font-size: 15px;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+section div.posts div.card div.img{
+    width: 100%;
+    text-align: center;
+    height: 620px;
+    overflow: hidden;
+}
+
+section div.posts div.card div.img img{
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    height: 620px;
+}
+
+section div.posts div.card div.actions-post{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+section div.posts div.card div.actions-post div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section div.posts div.card div.actions-post div i{
+    font-size: 25px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+section div.posts div.card div.legend-likes{
+    width: 100%;
+    padding: 10px;
+}
+
+section div.posts div.card div.legend-likes p{
+    font-size: 15px;
+    font-family: Verdana;
+}
+
+section div.posts div.card div.comment{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+section div.posts div.card div.comment input{
+    width: 80%;
+    height: 55px;
+    text-indent: 7px;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+section div.posts div.card div.comment button{
+    outline: none;
+    width: 20%;
+    background-color: #3897f013;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    color: #3897f0;
+}
